@@ -1,0 +1,13 @@
+{
+  "name": "microservices-project",
+  "version": "1.0.0",
+  "description": "Microservices test task with JWT auth",
+  "scripts": {
+    "docker:build": "docker compose build",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "docker:logs": "docker compose logs -f",
+    "docker:restart": "docker compose down && docker compose up -d",
+    "docker:clean": "docker compose down -v"
+  }
+}
